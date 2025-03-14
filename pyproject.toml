@@ -1,0 +1,10 @@
+[project]
+name = "habitrace"
+version = "0.1.0"
+description = "Habit Race is a social habit-tracking app that turns building habits into an exciting competition. Create habits, invite friends, and compete to see who can stick to their goals the longest. Track your progress, climb the leaderboard, and stay motivated to achieve new milestones every day!"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff"]
